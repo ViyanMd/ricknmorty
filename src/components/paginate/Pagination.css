@@ -1,0 +1,30 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.action_prev, .action_next {
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    transition: all 250ms ease-in-out;
+}
+
+.action_prev:hover, .action_next:hover {
+    background-color: #BBE0F2;
+}
+
+.action_prev:hover, .action_next:hover, .page-item:hover, .page-link:hover {
+    cursor: pointer;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 450px) {
+    .pagination {
+        flex-wrap: wrap;
+    }
+}

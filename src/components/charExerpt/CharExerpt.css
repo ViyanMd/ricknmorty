@@ -1,0 +1,43 @@
+.character {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.47);
+    border-radius: 4px;
+    aspect-ratio: 1/1;
+}
+
+
+
+.character_logo {
+    flex-basis: 70%;
+    background-position: center;
+    background-size: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    transition: all 150ms ease-in-out;
+}
+
+.character_logo:hover {
+    background-size: 110%;
+}
+
+.character_name {
+    font-family: "Robot", sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 30px;
+}
+
+.character_species {
+    font-family: "Robot", sans-serif;
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.character_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}

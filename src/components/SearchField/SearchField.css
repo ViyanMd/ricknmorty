@@ -1,0 +1,14 @@
+.input-field {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    gap: 0.5rem;
+}
+
+.search-sign {
+    width: 24px;
+    height: 24px;
+}
+
